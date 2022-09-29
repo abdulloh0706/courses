@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+}
+.wrapper__tel {
+  margin-top: 30px;
+  color: grey;
+  opacity: 0.7;
+}
+.wrapper__all {
+  margin-top: 10px;
+  color: blue;
+}
+
+.left__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.right__wrapper {
+  margin-left: 60px;
+}
+.right__wrapper hr {
+  width: 710px;
+  border: 2px solid black;
+}
+
+.kurslar {
+  display: flex;
+  flex-direction: column;
+}
+.kurslar a {
+  margin-top: 5px;
+  color: grey;
+}
+
+.cards {
+  display: flex;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: black;
+  margin-left: 10px;
+}/*# sourceMappingURL=main.css.map */
